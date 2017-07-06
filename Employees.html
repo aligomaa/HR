@@ -1,0 +1,525 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employess</title>
+  <link href="css/bootstrap.css" rel="stylesheet">             
+  <link href="css/font-awesome.min.css" rel="stylesheet">          
+  <link href="css/easy-responsive-tabs.css" rel="stylesheet">   
+  <link href="css/style.css" rel="stylesheet">
+    <style>
+    img{
+overflow: hidden;
+transition-duration: 0.8s;
+transition-property: transform;
+ border-radius: 10px;
+}
+img:hover{
+     border-radius: 50%;
+ <!-- -webkit-transform: rotate(360deg);-->
+   
+}  
+    </style>
+    
+    <script src="js/jquery.min.js"></script> 
+    <script>
+    
+    </script>
+  </head>
+  <body> 
+                         <!-- begin of templete-->
+    
+    <div class="accounts_module">
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <h1 class="text-center">ٍSoft-<span>Touch</span></h1>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav ca-menu">
+            <li>
+              <a href="HrMain.html" class="">
+                <i class="ca-icon fa fa-user fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-user fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content link_title"><h3 class="ca-sub">Profile</h3></span>
+              </a>
+            </li>
+            <li>
+              <a href="HrAttendence.html" >
+                <i class="ca-icon fa fa-table fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-table fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content ca-sub link_title"><h3 class="ca-sub">My Attendance</h3></span>
+              </a>
+            </li>
+            <li>
+              <a href="HrRequest.html">
+                <i class="ca-icon fa fa-question-circle fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-question-circle fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content link_title"><h3 class="ca-sub">Make Request</h3></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ca-icon fa fa-print fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-bell fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content link_title"><h3 class="ca-sub">Reports</h3></span>
+              </a>
+            </li>
+             <li style="margin-left:520px;">
+              <a href="Home.html">
+                <i class="ca-icon fa fa-home fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-bell fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content link_title"><h3 class="ca-sub">home</h3></span>
+              </a>
+            </li>
+              
+               <li >
+              <a href="Login.html">
+                <i class="ca-icon fa fa-sign-out fa-icon hidden-xs"></i>
+                <i class="ca-icon-xs fa fa-bell fa-icon-xs hidden-md hidden-lg hidden-sm"></i>
+                <span class="ca-content link_title"><h3 class="ca-sub">log out</h3></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+            
+            
+        <div class="container-fluid breadcrumbshead">
+          <span class="collaps_menu"><i class="fa fa-arrow-up"></i></span>
+          <div class="dropdown user_info">
+            <a data-toggle="dropdown" href="#">
+              <i class="fa fa-user"></i>
+              <span class="hidden-xs">Welcome , User </span>
+              <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li>
+                  <a href="">
+                    <i class="fa fa-gear"></i>
+                    <span>User Setting</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa fa-power-off"></i>
+                    <span>Sign out</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown user_info">
+              <a data-toggle="dropdown" href="#">
+                <i class="fa fa-bell"></i>
+                <span class="hidden-xs">Notifications</span>
+                <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                  <li>
+                    <a href="">
+                      <i class="fa fa-bell"></i>
+                      <span></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa fa-bell"></i>
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <marquee style="width:45%; margin-left:30%; font-size:20px; font-family:Helvetica; color:white" loop> we hope for you a good and interesting day ..enjoy.. </marquee> 
+        </div>
+        
+        <br><br>
+        <div class="container-fluid page_content">
+            
+            <!---begin links-->
+          <div style="background-color:rgba(0,0,0,0.5); height:800px; font-size:16px;" class="col-xs-3 col-sm-2">
+                
+                   <ul class="nav nav-pills nav-stacked">
+                       <li> </li><br />
+    <li style="background-color: #07ab79; border-radius:10px;"><a href="Employees.html">Employees</a>       
+                       </li><br /><br />
+    <li style="background-color: #07ab79; border-radius:10px;"><a href="Attendences.html">Attendences</a></li><br /><br />
+    <li  style="background-color: #07ab79; border-radius:10px;"><a href="Manage%20Request.html"> Manage Requests</a></li><br /><br />
+    <li  style="background-color: #07ab79; border-radius:10px;"><a href="Payrolls.html">Payrolls</a></li><br /><br />
+        <li  style="background-color: #07ab79; border-radius:10px;"><a href="Payrolls.html">Payroll cards</a></li><br /><br />
+  </ul>
+                
+      </div>
+            <!-- end links -->
+            
+               <div style=" height:800px;" class="col-xs-9 col-sm-10">
+                  <div class="widget-header">
+                    <h4 class="widget-title lighter"><i class="fa fa-users"></i> Employees</h4>
+                  </div> <br>
+                
+                      <div class="overflow-h">
+                        <div class="col-md-6 col-xs-12 margin-b-20">
+                          <button class="btn btn-danger">
+                            <i class="ace-icon fa fa-trash-o align-top bigger-125"></i>
+                            Delete
+                          </button>&nbsp;
+
+                          <button class="btn btn-primary " onclick="addnew()" >
+                            <i class="ace-icon fa fa-plus align-top bigger-125"></i>
+                            Add
+                          </button> &nbsp;&nbsp;
+                                
+                            <button class="btn btn-success " onclick="addnew()" >
+                            <i class="ace-icon fa fa-plus align-top bigger-125"></i>
+                           edit
+                          </button>
+                            <br> <br> <br>
+                             <button class="btn btn-success " onclick="addnew()" >
+                            <i class="ace-icon fa fa-plus align-top bigger-125"></i>
+                              go back to home page
+                          </button>
+                        </div>
+                          
+                          <div class="col-md-6 col-xs-12">
+                          <div class="input-group">
+                            <input type="text" class="form-control search-query" placeholder="Type your query">
+                            <span class="input-group-btn">
+                              <button type="button" class="btn btn-purple btn-sm">
+                                Search
+                                <i class="ace-icon fa fa-search icon-on-right bigger-110"></i>
+                              </button>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- end button and search-->
+                   
+                   
+                   <div style=" height:auto;"  class="col-xs-9 col-sm-3">
+                       <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                       <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5); " class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>        
+                
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                         <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5); " class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                        
+                </div>
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                         <table style="font-size:14px; color:white;background-color: rgba(0,0,0,0.5); " class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                        
+                         <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5); " class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>
+             <br><br>
+                   
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                       <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                       <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5);" class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>        
+                
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                         <table style="font-size:14px; color:white;background-color: rgba(0,0,0,0.5);" class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                        
+                </div>
+                    <div style=" height:auto;" class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                         <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5);" class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>
+                    <div style=" height:auto; " class="col-xs-9 col-sm-3">
+                        <img style="margin-left:30px;" src="img/profile-pic.jpg">
+                        
+         <table style="font-size:14px; color:white; background-color: rgba(0,0,0,0.5); " class="table table-user-information">
+                           <tbody>
+                           <tr>
+                               <td>phone number :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>name :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>department :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>jop title :</td>
+                               <td></td>
+                            </tr>
+                               
+                                <tr>
+                               <td>National ID :</td>
+                               <td></td>
+                            </tr>
+                                <tr>
+                               <td>Address :</td>
+                               <td></td>
+                            </tr>
+                               
+                           </tbody>
+                       </table>
+                       
+                </div>
+            
+            
+                   
+            
+            
+        </div>
+     </div>
+     
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/easyResponsiveTabs.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+    </html>
